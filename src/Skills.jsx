@@ -14,13 +14,13 @@ import { FaDocker } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
-
+import { VscVscodeInsiders } from "react-icons/vsc";
 const Skills = () => {
   return (
-    <div className="w-[90%]  border-amber-400 m-auto mt-10 p-2 text-white ">
+    <div className="w-[90%]  border-blue-500 m-auto mt-10 p-2 ">
         <p className="text-center text-4xl font-bold ">Professional Skillset</p>
-      <ul className="grid grid-cols-5 gap-9 text-7xl mt-9  [&>li]:m-auto " >
-        <li className="m-auto">
+      <ul className="grid grid-cols-8 gap-9 text-7xl mt-9 [&>li]:p-3   [&>li]:m-auto [&>li]:shadow-xl [&>li]:shadow-blue-500/50 [&>li]:rounded-br-4xl" >
+        <li className="">
           <FaHtml5 />
         </li>
         <li>
@@ -63,6 +63,7 @@ const Skills = () => {
           <DiPostgresql />
         </li>
         <li><RiTailwindCssFill/></li>
+        <li><VscVscodeInsiders /></li>
        
       </ul>
     </div>

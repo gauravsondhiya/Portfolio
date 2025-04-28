@@ -3,6 +3,7 @@ import Header from './Header'
 import Homepage from './Homepage'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
 const App = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const App = () => {
       <Homepage/>
       <About/>
       <Skills/>
+      <Projects/>
     </div>
   )
 }

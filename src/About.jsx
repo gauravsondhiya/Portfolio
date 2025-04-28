@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-    <div className="w-[90%]  border-amber-400 m-auto mt-10 p-2 text-white">
+    <div className="w-[90%]  border-amber-400 m-auto mt-10 p-2">
 
       <p className="text-4xl  hover:underline -underline-offset-auto text-center">
         About Me
