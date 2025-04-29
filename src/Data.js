@@ -1,5 +1,6 @@
 
 import images from "./assets/images.jpg";
+
 export let arr = [
     {
       "logo":images,
