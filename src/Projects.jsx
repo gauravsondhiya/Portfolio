@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import  {arr}  from "./Data.js";
+import { arr } from "./Data.jsx";
 const Projects = () => {
   return (
     <div className="w-[90%] border border-amber-400 m-auto mt-10  grid  sm:grid-cols-3 gap-14 ">
@@ -18,16 +18,15 @@ const Projects = () => {
 
           <p className="border border-amber-500 h-[40%]">{e.detail}</p>
 
-
           <div className="h-[10%] flex justify-center gap-9">
             <button className="border border-amber-500 h-[50px] w-[90px] rounded-br-2xl">
-              <FaGithubSquare />{e.github}
+              <FaGithubSquare />
+              {e.github}
             </button>
             <button className="border border-amber-500 h-[50px] w-[90px] rounded-br-2xl">
-            <FaExternalLinkAlt /> {e.live}
+              <FaExternalLinkAlt /> {e.live}
             </button>
           </div>
-
         </div>
       ))}
     </div>
