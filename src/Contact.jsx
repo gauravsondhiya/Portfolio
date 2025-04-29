@@ -11,7 +11,7 @@ const Contact = () => {
           <input   type="text" placeholder='Your Name'/>
           <input  type="email" placeholder='Your Email'/>
           <input className='pb-15' type="text" placeholder='Your Message'/>
-         <button className="border border-blue-500 w-[15%] m-auto rounded-br-3xl">Submit</button>
+         <button className="hover:shadow-xl shadow-blue-500/50 border border-blue-500 w-[50%] sm:w-[15%] m-auto rounded-br-3xl">Submit</button>
         </form>
     </div>
   )

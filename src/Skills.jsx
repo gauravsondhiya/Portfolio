@@ -18,8 +18,8 @@ import { VscVscodeInsiders } from "react-icons/vsc";
 const Skills = () => {
   return (
     <div className="w-[90%]  border-blue-500 m-auto mt-10 p-2 ">
-        <p className="text-center text-4xl font-bold ">Professional Skillset</p>
-      <ul className="grid grid-cols-8 gap-9 text-7xl mt-9 [&>li]:p-3   [&>li]:m-auto [&>li]:shadow-xl [&>li]:shadow-blue-500/50 [&>li]:rounded-br-4xl" >
+      <p className="text-center text-4xl font-bold ">Professional Skillset</p>
+      <ul className="grid grid-cols-2 sm:grid-cols-8 gap-9 text-7xl mt-9 [&>li]:p-3   [&>li]:m-auto [&>li]:shadow-xl [&>li]:shadow-blue-500/50 [&>li]:rounded-br-4xl">
         <li className="">
           <FaHtml5 />
         </li>
@@ -62,9 +62,12 @@ const Skills = () => {
         <li>
           <DiPostgresql />
         </li>
-        <li><RiTailwindCssFill/></li>
-        <li><VscVscodeInsiders /></li>
-       
+        <li>
+          <RiTailwindCssFill />
+        </li>
+        <li>
+          <VscVscodeInsiders />
+        </li>
       </ul>
     </div>
   );

@@ -5,7 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import  {arr}  from "./Data.js";
 const Projects = () => {
   return (
-    <div className="w-[90%] border border-amber-400 m-auto mt-10  grid grid-cols-3 gap-14 ">
+    <div className="w-[90%] border border-amber-400 m-auto mt-10  grid  sm:grid-cols-3 gap-14 ">
       {arr.map((e, i) => (
         <div key={i} className="border border-red-700 h-[500px] rounded-br-3xl">
           <img
