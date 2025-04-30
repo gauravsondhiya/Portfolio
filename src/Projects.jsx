@@ -23,7 +23,7 @@ const Projects = () => {
             <h1 className=" border-amber-500 h-[10%] text-center text-2xl font-bold">
               {e.projectname}
             </h1>
-            <p className=" border-amber-500 h-[40%] text-center  font-semibold">
+            <p className=" border-amber-500 h-[40%]  text-wrap font-semibold">
               {e.detail}
             </p>
 
