@@ -4,7 +4,7 @@ import logo from "./assets/logo.jpeg";
 import { Link } from "react-router";
 const Intro = () => {
   return (
-    <div className=" w-[90%] m-auto mt-10 p-2   border-red-600">
+    <div className=" w-[90%] m-auto mt-20 p-2   border-red-600">
       <div className=" border-red-600 h-[100px] w-[100px] m-auto rounded-full">
         <img
           className="m-auto rounded-full  hover:shadow-xl shadow-blue-500"
