@@ -2,13 +2,14 @@ import React from "react";
 import { social } from "./Data";
 const Footer = () => {
   return (
-    <div className="border border-gray-800  w-[90%]  m-auto mt-12 p-3 ">
-      <div className="[&>p,ul]: border-amber-300  grid sm:grid-cols-3 gap-5 text-xl font-bold">
-        <p>Designed and Developed by Gaurav Sondhiya</p>
+    // <div className="border border-yellow-800  w-[90%]  m-auto mt-12 p-3 ">
+      <div className=" border-amber-300  grid sm:grid-cols-3 gap-2 sm:gap-5 text-xl font-bold
+       text-center">
+        <p>Designed and Developed by Gaurav...</p>
         <p className="text-center">Copyright @ 2025 G.S</p>
-        <ul className="grid grid-cols-4 text-3xl gap-3  [&>li]:hover:text-blue-500">
+        <ul className="grid grid-cols-4  text-3xl gap-3  [&>li]:hover:text-blue-500">
           {social.map((e, i) => (
-            <li key={i}>
+            <li key={i} className="m-auto">
               <a href={e.url} target="_blank" rel="noopener noreferrer">
                 {e.icon}
               </a>
@@ -16,7 +17,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-    </div>
+    // </div>
   );
 };
 
