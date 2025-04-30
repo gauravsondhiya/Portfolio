@@ -5,30 +5,42 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { arr } from "./Data.jsx";
 const Projects = () => {
   return (
-    <div className="w-[90%] border border-amber-400 m-auto mt-10  grid  sm:grid-cols-3 gap-14 ">
-      {arr.map((e, i) => (
-        <div key={i} className="border border-red-700 h-[500px] rounded-br-3xl">
-          <img
-            className=" w-[100%] h-[40%] border border-amber-500"
-            src={e.logo}
-            alt=""
-          />
+    <div className="w-[90%]  border-amber-400 m-auto mt-24   ">
+      <h1 className="text-4xl  hover:underline -underline-offset-auto text-center">
+        Projects
+      </h1>
+      <div className="grid  sm:grid-cols-3 gap-14 mt-5">
+        {arr.map((e, i) => (
+          <div
+            key={i}
+            className="border border-blue-400 h-[500px] rounded-3xl"
+          >
+            <img
+              className=" w-[80%] h-[36%]  rounded-2xl m-auto mt-3"
+              src={e.logo}
+              alt="logo"
+            />
+            <h1 className=" border-amber-500 h-[10%] text-center text-2xl font-bold">
+              {e.projectname}
+            </h1>
+            <p className=" border-amber-500 h-[40%] text-center  font-semibold">
+              {e.detail}
+            </p>
 
-          <h1 className="border border-amber-500 h-[10%]">{e.projectname}</h1>
-
-          <p className="border border-amber-500 h-[40%]">{e.detail}</p>
-
-          <div className="h-[10%] flex justify-center gap-9">
-            <button className="border border-amber-500 h-[50px] w-[90px] rounded-br-2xl">
-              <FaGithubSquare />
-              {e.github}
-            </button>
-            <button className="border border-amber-500 h-[50px] w-[90px] rounded-br-2xl">
-              <FaExternalLinkAlt /> {e.live}
-            </button>
+            <div className="h-[10%] flex  border-amber-500">
+              <button className=" border border-blue-400 h-[50px] w-[90px] rounded-xl m-auto font-semibold ">
+                <FaGithubSquare className="m-auto text-2xl" />
+                {e.github}
+              </button>
+              <button className=" h-[50px] w-[90px] rounded-xl border border-blue-400 font-semibold
+              m-auto">
+                <FaExternalLinkAlt className="m-auto text-xl" />
+                {e.live}
+              </button>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

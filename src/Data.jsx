@@ -3,44 +3,17 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
 import { IoIosMail } from "react-icons/io";
-
+import image from './assets/about.jpeg'
 
 export let arr = [
     {
-      "logo":"images",
-      "projectname": "demo",
-      "detail": "testiong sdfsdfsfsdfsdfsdf",
-      "github": "github",
-      "live": "live",
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
     },
-    {
-      "logo":"images",
-      "projectname": "demo",
-      "detail": "testiong sdfsdfsfsdfsdfsdf",
-      "github": "github",
-      "live": "live",
-    },
-    {
-      "logo":"images",
-      "projectname": "demo",
-      "detail": "testiong sdfsdfsfsdfsdfsdf",
-      "github": "github",
-      "live": "live",
-    },
-    {
-      "logo":"images",
-      "projectname": "demo",
-      "detail": "testiong sdfsdfsfsdfsdfsdf",
-      "github": "github",
-      "live": "live",
-    },
-    {
-      "logo":"images",
-      "projectname": "demo",
-      "detail": "testiong sdfsdfsfsdfsdfsdf",
-      "github": "github",
-      "live": "live",
-    },
+    
     
   
   ];

@@ -4,7 +4,7 @@ import logo from "./assets/logo.jpeg";
 import { Link } from "react-router";
 const Intro = () => {
   return (
-    <div className=" w-[90%] m-auto mt-20 p-2   border-red-600">
+    <div className="w-[90%] m-auto mt-24 p-2   border-red-600">
       <div className=" border-red-600 h-[100px] w-[100px] m-auto rounded-full">
         <img
           className="m-auto rounded-full  hover:shadow-xl shadow-blue-500"
@@ -17,7 +17,7 @@ const Intro = () => {
         Hi, I'm Gaurav Sondhiya..{" "}
       </p>
 
-      <p className=" text-xl  border-red-600 w-[70%] mt-3 p-1 ">
+      <p className=" text-xl  border-red-600 sm:w-[70%] mt-3 p-1 ">
         I am a Software Developer based in Bangalore with over 3 years of
         experience in the <strong>Mern Stack</strong> I specialize in building
         efficient, user-focused web applications.

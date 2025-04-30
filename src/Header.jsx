@@ -16,7 +16,7 @@ const Header = () => {
         <ul
           className="hidden sm:flex justify-center gap-6 backdrop-blur-sm
          border-2 border-blue-500  text-xl font-bold  p-4 [&>li]:hover:text-blue-500
-           [&>li]:hover:underline underline-offset-2  rounded-b-4xl w-[60%] m-auto"
+           [&>li]:hover:underline underline-offset-2  rounded-b-4xl sm:w-[50%] m-auto"
         >
           <li>
             <NavLink to="/">Home</NavLink>
