@@ -31,10 +31,10 @@ const Header = () => {
             <NavLink to="/projects">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/resume">Resume</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/#">Resume</NavLink>
           </li>
         </ul>
         <div className="sm:hidden text-3xl font-bold border border-blue-600 flex rounded-b-4xl backdrop-blur-xl">

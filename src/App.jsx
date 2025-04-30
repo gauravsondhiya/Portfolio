@@ -10,7 +10,6 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-     
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -18,6 +17,7 @@ const App = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Homepage />} />
       </Routes>
       <Footer />
     </div>

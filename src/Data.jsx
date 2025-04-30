@@ -13,7 +13,55 @@ export let arr = [
       "github": "Github",
       "live": "Link",
     },
-    
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
+    {
+      "logo":image,
+      "projectname": "Dummy Data",
+      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
+      "github": "Github",
+      "live": "Link",
+    },
     
   
   ];
