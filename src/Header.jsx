@@ -37,7 +37,7 @@ const Header = () => {
             <NavLink to="/#">Resume</NavLink>
           </li>
         </ul>
-        <div className="sm:hidden text-3xl font-bold border border-blue-600 flex rounded-b-4xl backdrop-blur-xl">
+        <div className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl backdrop-blur-xl">
           <img src={logo} alt="" className="ml-3 h-[60px] rounded-full  " />
           <button onClick={onoff} className="ml-auto mr-7">
             {onclick ? <FaAlignCenter /> : <FaSkullCrossbones />}
