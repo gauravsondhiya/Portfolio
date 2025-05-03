@@ -13,7 +13,7 @@ const Projects = () => {
         {arr.map((e, i) => (
           <div
             key={i}
-            className="border border-blue-400 h-[500px] rounded-3xl"
+            className=" h-[500px] rounded-3xl"
           >
             <img
               className=" w-[80%] h-[36%]  rounded-2xl m-auto mt-3"
@@ -28,17 +28,19 @@ const Projects = () => {
             </p>
 
             <div className="h-[10%] flex  border-amber-500">
-              <button className=" border border-blue-400 h-[50px] w-[90px] rounded-xl m-auto font-semibold ">
+              <button className=" border border-blue-800 h-[50px]  w-[120px] rounded-xl m-auto font-semibold ">
                 <FaGithubSquare className="m-auto text-2xl" />
                 {e.github}
               </button>
-              <button className=" h-[50px] w-[90px] rounded-xl border border-blue-400 font-semibold
+              <button className=" h-[50px] w-[120px] rounded-xl border border-blue-800 font-semibold
               m-auto">
                 <FaExternalLinkAlt className="m-auto text-xl" />
                 {e.live}
               </button>
             </div>
+            
           </div>
+       
         ))}
       </div>
     </div>

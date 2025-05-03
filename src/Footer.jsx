@@ -7,7 +7,7 @@ const Footer = () => {
        text-center">
         <p>Designed and Developed by Gaurav...</p>
         <p className="text-center">Copyright @ 2025 G.S</p>
-        <ul className="grid grid-cols-4  text-3xl gap-3  [&>li]:hover:text-blue-500">
+        <ul className="grid grid-cols-4 mt-4 sm:mt-0  text-3xl gap-3  [&>li]:hover:text-blue-500">
           {social.map((e, i) => (
             <li key={i} className="m-auto">
               <a href={e.url} target="_blank" rel="noopener noreferrer">

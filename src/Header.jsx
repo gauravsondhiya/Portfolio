@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaAlignCenter } from "react-icons/fa";
 import { FaSkullCrossbones } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
-import logo from "./assets/logo.jpeg";
+import name from "./assets/name.png";
 const Header = () => {
   let [onclick, setonclick] = useState(false);
 
@@ -37,8 +37,10 @@ const Header = () => {
             <NavLink to="/#">Resume</NavLink>
           </li>
         </ul>
-        <div className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl backdrop-blur-xl">
-          <img src={logo} alt="" className="ml-3 h-[60px] rounded-full  " />
+        <div className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl 
+        backdrop-blur-xl">
+          <img src={name} alt="" className="ml-9 h-[70px] rounded-full w-[80px]  " />
+       
           <button onClick={onoff} className="ml-auto mr-7">
             {onclick ? <FaAlignCenter /> : <FaSkullCrossbones />}
           </button>

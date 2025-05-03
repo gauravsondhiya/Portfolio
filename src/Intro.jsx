@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="w-[90%] m-auto mt-24 p-2   border-red-600">
       <div className=" border-red-600 h-[100px] w-[100px] m-auto rounded-full">
         <img
-          className="m-auto rounded-full  hover:shadow-xl shadow-blue-500"
+          className="m-auto rounded-full shadow-xl shadow-blue-600"
           src={logo}
           alt="avatar"
         />
