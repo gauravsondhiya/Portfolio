@@ -9,7 +9,7 @@ import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
-    <div>
+    <div class="absolute [background:radial-gradient(90%_180%_at_50%_10%,#000_40%,#63e_100%)]">
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />

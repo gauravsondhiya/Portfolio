@@ -3,7 +3,7 @@ import { social } from "./Data";
 const Footer = () => {
   return (
     // <div className="border border-yellow-800  w-[90%]  m-auto mt-12 p-3 ">
-      <div className="mt-14 border-amber-300  grid  sm:grid-cols-3 gap-2 sm:gap-5 text-xl font-bold
+      <div className="mt-14  border-amber-300 p-7 grid  sm:grid-cols-3 gap-2 sm:gap-5 text-xl font-bold
        text-center">
         <p>Designed and Developed by Gaurav...</p>
         <p className="text-center">Copyright @ 2025 G.S</p>

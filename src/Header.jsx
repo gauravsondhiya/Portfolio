@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaAlignCenter } from "react-icons/fa";
 import { FaSkullCrossbones } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
-import name from "./assets/name.png";
+import { RiReactjsFill } from "react-icons/ri";
 const Header = () => {
   let [onclick, setonclick] = useState(false);
 
@@ -14,7 +14,7 @@ const Header = () => {
     <nav>
       <div className=" border-amber-400 w-full fixed top-5  ">
         <ul
-          className="hidden sm:flex justify-center gap-6 backdrop-blur-sm
+          className="hidden  sm:flex justify-center gap-6 backdrop-blur-sm
          border-2 border-blue-500  text-xl font-bold  p-4 [&>li]:hover:text-blue-500
            [&>li]:hover:underline underline-offset-2  rounded-b-4xl sm:w-[50%] m-auto"
         >
@@ -39,8 +39,8 @@ const Header = () => {
         </ul>
         <div className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl 
         backdrop-blur-xl">
-          <img src={name} alt="" className="ml-9 h-[70px] rounded-full w-[80px]  " />
-       
+         
+       <RiReactjsFill className="ml-9 h-[70px] rounded-full w-[80px]  " />
           <button onClick={onoff} className="ml-auto mr-7">
             {onclick ? <FaAlignCenter /> : <FaSkullCrossbones />}
           </button>

@@ -1,19 +1,21 @@
 import React from "react";
 import { social } from "./Data.jsx";
-import logo from "./assets/logo.jpeg";
+import logo from "./assets/logo.jpg";
 import { Link } from "react-router";
 const Intro = () => {
   return (
-    <div className="w-[90%] m-auto mt-24 p-2   border-red-600">
-      <div className=" border-red-600 h-[100px] w-[100px] m-auto rounded-full">
+    <div className="w-[90%] m-auto mt-[25%]  grid sm:grid-cols-12 gap-4  border-red-600">
+
+      <div className="hidden md:block border-red-600 sm:col-span-5  ">
         <img
-          className="m-auto rounded-full shadow-xl shadow-blue-600"
+          className="m-auto w-[50%] rounded-e-4xl  border-red-600 shadow-xl shadow-purple-500"
           src={logo}
           alt="avatar"
         />
       </div>
 
-      <p className="  text-4xl font-bold tracking-tight mt-3 hover:text-blue-500">
+        <div className=" border-amber-400 col-span-7 ">
+       <p className="  text-4xl font-bold tracking-tight mt-3 hover:text-blue-500">
         Hi, I'm Gaurav Sondhiya..{" "}
       </p>
 
@@ -38,6 +40,8 @@ const Intro = () => {
           </li>
         ))}
       </ul>
+         </div>
+     
     </div>
   );
 };

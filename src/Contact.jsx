@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="w-[90%] grid content-center  border-amber-400 m-auto mt-24 p-2">
-        <h1 className="text-4xl  hover:underline -underline-offset-auto text-center">Contact Me</h1>
+        <h1 className="text-4xl  underline -underline-offset-auto text-center">Contact Me</h1>
         <p className='text-2xl text-center mt-4 font-semibold '>Please Fill Out The Form Below Any Work Opportunites</p>
         <form action="" className='flex flex-col 
         [&>input]:border [&>input]:border-blue-500 gap-4 text-2xl [&>input]:m-auto sm:[&>input]:w-[50%]

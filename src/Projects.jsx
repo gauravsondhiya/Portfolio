@@ -6,14 +6,14 @@ import { arr } from "./Data.jsx";
 const Projects = () => {
   return (
     <div className="w-[90%]  border-amber-400 m-auto mt-24   ">
-      <h1 className="text-4xl  hover:underline -underline-offset-auto text-center">
+      <h1 className="text-4xl  underline -underline-offset-auto text-center">
         Projects
       </h1>
-      <div className="grid  sm:grid-cols-3 gap-14 mt-5">
+      <div className="grid sm:grid-cols-3 gap-14 mt-5">
         {arr.map((e, i) => (
           <div
             key={i}
-            className=" h-[500px] rounded-3xl"
+            className="border border-white-400 h-[450px] rounded-3xl"
           >
             <img
               className=" w-[80%] h-[36%]  rounded-2xl m-auto mt-3"

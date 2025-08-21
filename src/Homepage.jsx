@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Intro from "./Intro";
+
 const Homepage = () => {
   return (
     <div>

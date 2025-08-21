@@ -3,65 +3,51 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
 import { IoIosMail } from "react-icons/io";
-import image from './assets/about.jpeg'
+// import image from './assets/about.jpeg'
 
 export let arr = [
     {
-      "logo":image,
+      "logo":"image",
       "projectname": "Dummy Data",
       "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
       "github": "Github",
       "live": "Link",
     },
     {
-      "logo":image,
+      "logo":'image',
       "projectname": "Dummy Data",
       "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
       "github": "Github",
       "live": "Link",
     },
     {
-      "logo":image,
+      "logo":'image',
       "projectname": "Dummy Data",
       "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
       "github": "Github",
       "live": "Link",
     },
     {
-      "logo":image,
+      "logo":'image',
       "projectname": "Dummy Data",
       "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
       "github": "Github",
       "live": "Link",
     },
     {
-      "logo":image,
+      "logo":'image',
       "projectname": "Dummy Data",
       "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
       "github": "Github",
       "live": "Link",
     },
     {
-      "logo":image,
+      "logo":'image',
       "projectname": "Dummy Data",
       "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
       "github": "Github",
       "live": "Link",
-    },
-    {
-      "logo":image,
-      "projectname": "Dummy Data",
-      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
-      "github": "Github",
-      "live": "Link",
-    },
-    {
-      "logo":image,
-      "projectname": "Dummy Data",
-      "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consectetur, dicta sequi qui in dolorum similique, dolore voluptate, possimus commodi laborum. Magnam, quos repudiandae nisi maiores sed non voluptas animi.",
-      "github": "Github",
-      "live": "Link",
-    },
+    }
     
   
   ];
