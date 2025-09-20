@@ -12,11 +12,13 @@ const Header = () => {
 
   return (
     <nav>
-      <div className=" border-amber-400 w-full fixed top-5  ">
+      <div className=" border-amber-400 w-full fixed top-0 bg-white p-4 flex justify-around text-xl font-bold ">
+        <h1 className="text-3xl">Gaurav Sondhiya</h1>
+
         <ul
-          className="hidden  sm:flex justify-center gap-6 backdrop-blur-sm
-         border-2 border-blue-500  text-xl font-bold  p-4 [&>li]:hover:text-blue-500
-           [&>li]:hover:underline underline-offset-2  rounded-b-4xl sm:w-[50%] m-auto"
+          className="hidden  sm:flex justify-center gap-6 
+         border-blue-500   
+           [&>li]:hover:text-blue-300"
         >
           <li>
             <NavLink to="/">Home</NavLink>
@@ -37,10 +39,14 @@ const Header = () => {
             <NavLink to="/#">Resume</NavLink>
           </li>
         </ul>
-        <div className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl 
-        backdrop-blur-xl">
-         
-       <RiReactjsFill className="ml-9 h-[70px] rounded-full w-[80px]  " />
+
+        {/* mobile ? */}
+
+        <div
+          className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl 
+        backdrop-blur-xl"
+        >
+          <RiReactjsFill className="ml-9 h-[70px] rounded-full w-[80px]  " />
           <button onClick={onoff} className="ml-auto mr-7">
             {onclick ? <FaAlignCenter /> : <FaSkullCrossbones />}
           </button>
