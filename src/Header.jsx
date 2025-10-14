@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaAlignCenter } from "react-icons/fa";
 import { FaSkullCrossbones } from "react-icons/fa6";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import { RiReactjsFill } from "react-icons/ri";
 const Header = () => {
   let [onclick, setonclick] = useState(false);
@@ -12,8 +12,10 @@ const Header = () => {
 
   return (
     <nav>
-      <div className=" border-amber-400 w-full fixed top-0 bg-white p-4 flex justify-around text-xl font-bold ">
-        <h1 className="text-3xl">Gaurav Sondhiya</h1>
+      <div className=" border-amber-400 w-full fixed top-0  p-4 flex justify-around text-xl font-bold ">
+        <NavLink to="/">
+          <h1 className="text-3xl">Gaurav Sondhiya</h1>
+        </NavLink>
 
         <ul
           className="hidden  sm:flex justify-center gap-6 

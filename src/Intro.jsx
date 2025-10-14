@@ -4,6 +4,7 @@ import logo from "./assets/logo.jpg";
 import { Link } from "react-router";
 const Intro = () => {
   return (
+    
     <div className="w-[80%] m-auto mt-[9%]  grid sm:grid-cols-12 gap-4  border-red-600">
       <div className="hidden md:block  border-red-600 sm:col-span-5   ">
         <img
