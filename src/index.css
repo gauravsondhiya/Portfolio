@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+body {
+  @apply bg-cover bg-center bg-no-repeat min-h-screen;
+  background-color: black;
+  color: whitesmoke;
+}

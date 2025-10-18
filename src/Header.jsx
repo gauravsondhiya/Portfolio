@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <nav>
-      <div className=" border-amber-400 w-full fixed top-0  p-4 flex justify-around text-xl font-bold ">
+      <div className="border border-amber-400 w-full fixed top-0  p-4 flex justify-around text-xl font-bold ">
         <NavLink to="/">
           <h1 className="text-3xl">Gaurav Sondhiya</h1>
         </NavLink>
@@ -23,13 +23,13 @@ const Header = () => {
            [&>li]:hover:text-blue-300"
         >
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/">Github</NavLink>
           </li>
           <li>
-            <NavLink to="/skills">Skills</NavLink>
+            <NavLink to="/skills">Linkedin</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about">X</NavLink>
           </li>
           <li>
             <NavLink to="/projects">Projects</NavLink>

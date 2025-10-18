@@ -5,13 +5,12 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Footer from "./Footer";
-
 import { Routes, Route } from "react-router-dom";
+
 const App = () => {
   return (
-    <div class=" bg-slate-950">
-  
- <Header />
+    <div>
+      <Header />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/skills" element={<Skills />} />
@@ -19,12 +18,9 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Homepage />} />
       </Routes>
-      <Footer />
-  </div>
-
+    
+    </div>
   );
 };
 
 export default App;
-
-
