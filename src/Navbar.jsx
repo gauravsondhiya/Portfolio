@@ -1,18 +1,11 @@
 import React, { useState } from "react";
 import { FaAlignCenter } from "react-icons/fa";
-import { FaSkullCrossbones } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { VscThreeBars } from "react-icons/vsc";
-
+import { navbardata } from "./Data";
 const Header = () => {
   let [onclick, setonclick] = useState(false);
-  let data = [
-    { type: "Github", link: "https://github.com/gauravsondhiya" },
-    { type: "linkedin", link: "https://www.linkedin.com/in/gaurav-sondhiya/" },
-    { type: "X", link: "https://x.com/sondhiya__ji" },
-    { type: "Hire ME", link: "mailto:gauravsondhiya1503@gmail.com" },
-    { type: "Resume", link: "drivelink" },
-  ];
+  
   let onoff = () => {
     setonclick(!onclick);
   };
@@ -28,7 +21,7 @@ const Header = () => {
         </NavLink>
 
         <div className="hidden  sm:flex gap-3 ">
-           {data.map((e) => (
+           {navbardata.map((e) => (
             <>
               <a href={e.link} target="_blank" className=" overflow-hidden bg-purple-500 text-white p-3 rounded-lg transition-all duration-300 active:scale-95 active:bg-pink-600 focus:outline-none  ">
              {e.type}
@@ -52,7 +45,7 @@ const Header = () => {
 
       {onclick && (
         <div className=" sm:hidden grid bg-black text-2xl  text-center mt-20  bg-cover h-full">
-          {data.map((e) => (
+          {navbardata.map((e) => (
             <>
               <a href={e.link} target="_blank" className=" overflow-hidden bg-purple-500 text-white px-6 py-3 rounded-lg transition-all duration-300 active:scale-95 active:bg-pink-600 focus:outline-none w-[30%] m-auto mt-3">
              {e.type}

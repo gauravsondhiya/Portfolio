@@ -29,9 +29,17 @@ export let projectarr = [
    gitlink:"https://github.com/gauravsondhiya/Pustak_AI",
    livelink:"https://pustakai-rho.vercel.app/"
 },
-  
 
 ];
+
+
+export let navbardata = [
+    { type: "Github", link: "https://github.com/gauravsondhiya" },
+    { type: "linkedin", link: "https://www.linkedin.com/in/gaurav-sondhiya/" },
+    { type: "X", link: "https://x.com/sondhiya__ji" },
+    { type: "Hire ME", link: "mailto:gauravsondhiya1503@gmail.com" },
+    { type: "Resume", link: "drivelink" },
+  ];
 
 export let social = [
   {
