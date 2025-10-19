@@ -16,7 +16,10 @@ const Intro = () => {
         </div>
 
         <div className=" border-amber-400 sm:col-span-7 ">
-          <div className="text-center sm:text-left relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 p-4 text-4xl font-bold  mt-3">
+          <div className="text-center sm:text-left 
+           bg-clip-text text-transparent 
+          bg-no-repeat bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
+           p-4 text-4xl font-bold  mt-3">
             Hi, I'm Gaurav Sondhiya..{" "}
           </div>
           <p className=" text-xl leading-relaxed  border-red-600  mt-3 p-4 ">
@@ -35,7 +38,10 @@ const Intro = () => {
         href={e.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block p-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-lg group-hover:from-purple-600 group-hover:via-pink-600 group-hover:to-red-600 transition-all duration-300 group-hover:scale-110"
+        className="inline-block p-2 bg-gradient-to-r
+         from-purple-500 via-pink-500 to-red-500 rounded-lg
+          group-hover:from-purple-600 group-hover:via-pink-600
+           group-hover:to-red-600 transition-all duration-300 group-hover:scale-110"
       >
         <div className="text-white text-3xl">
           {e.icon}

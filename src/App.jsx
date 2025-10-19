@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import Homepage from "./Homepage";
 import About from "./About";
 import Skills from "./Skills";
@@ -10,7 +10,7 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/skills" element={<Skills />} />
