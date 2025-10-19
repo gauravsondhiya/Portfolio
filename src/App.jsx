@@ -5,12 +5,14 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 import Intro from "./Intro";
 import Experience from "./Experience";
+import Gitgraph from "./Gitgraph";
 const App = () => {
   return (
     <div>
       <Navbar />
       <Intro />
       <Projects />
+      <Gitgraph/>
       <Experience/>
       <Skills />
      <Footer/>
