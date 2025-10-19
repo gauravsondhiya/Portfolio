@@ -1,6 +1,5 @@
 import React from "react";
 import { projectarr } from "./Data";
-import { Button } from "../src/components/ui/moving-border";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 const Projects = () => {
@@ -11,8 +10,8 @@ const Projects = () => {
        </div>
     <div className="sm:w-[90%] sm:m-auto  sm:p-5  flex flex-col gap-5">
       {/* logo */}
-      {projectarr.map((data) => (
-        <div className="sm:w-[90%] mt-15 border border-purple-300  sm:h-[400px] sm:m-auto grid sm:grid-cols-12  rounded-2xl gap-2  ">
+      {projectarr.map((data ,i) => (
+        <div key={i} className="sm:w-[90%] mt-15 border border-purple-300  sm:h-[400px] sm:m-auto grid sm:grid-cols-12  rounded-2xl gap-2  ">
           <div className="sm:col-span-6 sm:ml-5 sm:my-auto rounded-2xl p-4 ">
             <img
               src={data.logo}
@@ -27,12 +26,12 @@ const Projects = () => {
               <h1 className="">{data.title}</h1>
             </div>
 
-            <div className="h-[90px]  p-3 text-center sm:text-left text-xl ">
-              <h1>{data.description}</h1>
+            <div  className="h-[90px]  p-3 text-center sm:text-left text-xl ">
+              <h1 >{data.description}</h1>
             </div>
             <div className="h-[25%] h-[90px]  grid grid-cols-5 gap-2 ">
-              {data.stack.map((e) => (
-                <p className="border border-purple-600 text-pink-500 font-bold m-auto p-3 rounded-xl">{e}</p>
+              {data.stack.map((e ,i) => (
+                <p key={i} className="border border-purple-600 text-pink-500 font-bold m-auto p-3 rounded-xl">{e}</p>
               ))}
             </div>
 

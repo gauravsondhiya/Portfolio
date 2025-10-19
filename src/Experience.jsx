@@ -13,7 +13,7 @@ const Experience = () => {
       title: "July 2024 - April 2026",
       content: (
         <div>
-          <p className="mb-8 text-3xl font-normal text-neutral-800  dark:text-neutral-200">
+          <p className="mb-8 text-3xl font-bold  bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-red-500 to-pink-500 ">
             Pursuing MCA(Master of Computer Application) from RGPV
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -53,7 +53,7 @@ const Experience = () => {
       title: "Sep 2022 - Jan 2024",
       content: (
         <div>
-          <p className="mb-8 text-3xl font-normal text-neutral-800  dark:text-neutral-200">
+          <p className="mb-8 text-3xl font-bold  bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-red-500 to-pink-500 ">
             Associate Software Developer, Linked ERP Bangalore
           </p>
           <p className="mb-8 text-xl font-normal text-neutral-800  dark:text-neutral-200">
@@ -103,7 +103,7 @@ const Experience = () => {
       title: "Aug 2020 - Oct 2021",
       content: (
         <div>
-          <p className="mb-8 text-3xl font-normal text-neutral-800  dark:text-neutral-200">
+          <p className="mb-8 text-3xl font-bold  bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-red-500 to-pink-500 ">
             Technical Support Associate, Teleperformance Gurugram
           </p>
           <p className="mb-8 text-xl font-normal text-neutral-800  dark:text-neutral-200">

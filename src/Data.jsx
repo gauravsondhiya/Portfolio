@@ -4,6 +4,8 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import project1 from './assets/project1.png'
+
+
 export let projectarr = [
   {
    logo:project1,
@@ -37,7 +39,7 @@ export let navbardata = [
     { type: "Github", link: "https://github.com/gauravsondhiya" },
     { type: "linkedin", link: "https://www.linkedin.com/in/gaurav-sondhiya/" },
     { type: "X", link: "https://x.com/sondhiya__ji" },
-    { type: "Hire ME", link: "mailto:gauravsondhiya1503@gmail.com" },
+    { type: "Contact", link: "mailto:gauravsondhiya1503@gmail.com" },
     { type: "Resume", link: "drivelink" },
   ];
 

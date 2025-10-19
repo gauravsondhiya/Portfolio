@@ -1,23 +1,19 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Homepage from "./Homepage";
-import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Footer from "./Footer";
-import { Routes, Route } from "react-router-dom";
-
+import Intro from "./Intro";
+import Experience from "./Experience";
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Homepage />} />
-      </Routes>
+      <Intro />
+      <Projects />
+      <Experience/>
+      <Skills />
+     <Footer/>
     
     </div>
   );

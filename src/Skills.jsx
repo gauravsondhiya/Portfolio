@@ -18,60 +18,25 @@ import { VscVscodeInsiders } from "react-icons/vsc";
 
 
 const Skills = () => {
+  let arr =[ <FaHtml5/>, <FaCss3Alt />, <IoLogoJavascript />,<SiTypescript />, <RiReactjsFill />,<RiTailwindCssFill />, <SiExpress />, <DiMongodb />, <DiNodejs />,<FaGitSquare />, <RiNextjsFill />, <VscVscodeInsiders />,  <DiPostgresql />, <FaDocker />,<FaAws />,<SiMysql/>]
   return (
-    <div className="w-[80%]  border-blue-500 m-auto mt-24 p-2 ">
+    <div className="w-[80%] border border-blue-500 m-auto mt-24 p-2 rounded-xl">
   
-      <p className="text-4xl font-bold text-center">Professional Skillset</p>
-      <ul className="grid grid-cols-3 sm:grid-cols-8 gap-10 sm:gap-9 text-7xl mt-9 [&>li]:p-3   [&>li]:m-auto [&>li]:shadow-xl ">
-        <li className="">
-          <FaHtml5/>
-        </li>
-        <li>
-          <FaCss3Alt />
-        </li>
-        <li>
-          <IoLogoJavascript />
-        </li>
-        <li>
-          <RiReactjsFill />
-        </li>
-        <li>
-          <SiExpress />
-        </li>
-        <li>
-          <DiMongodb />
-        </li>
-        <li>
-          <DiNodejs />
-        </li>
-        <li>
-          <FaGitSquare />
-        </li>
-        <li>
-          <RiNextjsFill />
-        </li>
-        <li>
-          <SiTypescript />
-        </li>
-        <li>
-          <FaAws />
-        </li>
-        <li>
-          <FaDocker />
-        </li>
-        <li>
-          <SiMysql />
-        </li>
-        <li>
-          <DiPostgresql />
-        </li>
-        <li>
-          <RiTailwindCssFill />
-        </li>
-        <li>
-          <VscVscodeInsiders />
-        </li>
-      </ul>
+      <p className="text-4xl font-bold text-center">Technical Skills</p>
+      <div className="grid grid-cols-3 sm:grid-cols-8 gap-10  text-7xl mt-9 ">
+        {
+          arr.map((e,i)=>(
+            <div key={i}>
+             <div className="inline-block m-auto bg-gradient-to-r
+         from-purple-500 via-pink-500 to-red-500 rounded-lg
+          group-hover:from-purple-600 group-hover:via-pink-600
+           group-hover:to-red-600 transition-all duration-300 group-hover:scale-110">
+              {e}
+             </div>
+            </div>
+          ))
+        }
+      </div>
     </div>
   );
 };

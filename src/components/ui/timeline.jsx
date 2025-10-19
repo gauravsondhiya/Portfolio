@@ -29,11 +29,11 @@ export const Timeline = ({
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+        <h2 className="text-4xl mb-3 font-bold  bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-red-500 to-pink-500  ">
           Experience
         </h2>
         <p
-          className="text-neutral-700 dark:text-neutral-300 text-3xl  max-w-sm">
+          className="text-neutral-300 text-2xl font-bold max-w-sm">
             My Journey So Far-
           {/* I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
           a timeline of my journey. */}
