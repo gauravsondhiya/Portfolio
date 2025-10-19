@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <nav>
-      <div className="border border-amber-400 w-full fixed top-0  p-4 flex justify-around text-xl font-bold ">
+      <div className="border backdrop-blur-3xl border-amber-400 w-full fixed top-0  p-4 flex justify-around text-xl font-bold ">
         <NavLink to="/">
           <h1 className="text-3xl">Gaurav Sondhiya</h1>
         </NavLink>
@@ -48,7 +48,7 @@ const Header = () => {
           className="sm:hidden text-3xl font-bold  border-blue-600 flex rounded-b-4xl 
         backdrop-blur-xl"
         >
-          <RiReactjsFill className="ml-9 h-[70px] rounded-full w-[80px]  " />
+        
           <button onClick={onoff} className="ml-auto mr-7">
             {onclick ? <FaAlignCenter /> : <FaSkullCrossbones />}
           </button>

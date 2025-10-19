@@ -8,7 +8,7 @@ const Intro = () => {
       <div className="w-[80%] m-auto  grid sm:grid-cols-12 gap-4  border-red-600 mt-30">
         <div className=" sm:col-span-5   border-green-600  ">
           <img
-            className=" rounded-full h-[300px] w-[300px]  sm:h-[400px] sm:w-[400px] 
+            className="border-hidden rounded-full h-[300px] w-[300px]  sm:h-[400px] sm:w-[400px] 
                       mx-auto border"
             src={logo}
             alt="avatar"

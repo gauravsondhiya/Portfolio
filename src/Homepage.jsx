@@ -9,11 +9,11 @@ const Homepage = () => {
   return (
     <>
       <Intro />
-      <Experience/>
-      <Skills />
-    
       <Projects />
-     <Slider/>
+      {/* <Experience/> */}
+      {/* <Skills /> */}
+    
+     
     </>
   );
 };
