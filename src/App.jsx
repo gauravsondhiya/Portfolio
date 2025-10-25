@@ -34,7 +34,6 @@ const App = () => {
       <Projects />
       <Gitgraph />
       <Experience />
-      <Skill/>
       <Footer />
     </div>
   );
