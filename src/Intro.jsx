@@ -28,7 +28,7 @@ const Intro = () => {
             I am a Software Engineer with <b>3 years</b> of Experience in
             building web applications.
             <br /> I work with React, Next.js, Redux, Node.js, Express, MongoDB,
-            and PostgreSQL. I also have knowledge of DevOps, AWS, Zod, and
+            and PostgreSQL. I also have knowledge of DevOps, AWS and
             generative AI with vector databases. My focus is on creating
             scalable, secure, and impactful digital solutions.
           </p>

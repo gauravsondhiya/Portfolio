@@ -33,7 +33,6 @@ const App = () => {
       <Projects />
       <Gitgraph />
       <Experience />
-      <Skills />
       <Footer />
     </div>
   );
