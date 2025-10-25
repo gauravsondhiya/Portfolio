@@ -7,6 +7,7 @@ import Intro from "./Intro";
 import Experience from "./Experience";
 import Gitgraph from "./Gitgraph";
 import { LoaderOne } from "@/components/ui/loader";
+import Skill from "./Skill";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -33,6 +34,7 @@ const App = () => {
       <Projects />
       <Gitgraph />
       <Experience />
+      <Skill/>
       <Footer />
     </div>
   );
