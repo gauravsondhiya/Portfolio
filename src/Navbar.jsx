@@ -12,11 +12,11 @@ const Header = () => {
   return (
     <nav>
       <div
-        className="mt-2 bg-black border-amber-400 w-full fixed top-0  p-4 
+        className="mt-1 bg-black border-amber-400 w-full fixed top-0  p-4 
       flex justify-around text-xl font-bold "
       >
         <div>
-          <h1 className="text-3xl">Gaurav Sondhiya</h1>
+          <h1 className="text-2xl sm:text-3xl">Gaurav Sondhiya</h1>
         </div>
 
         <div className="hidden  sm:flex gap-3 ">
@@ -33,7 +33,7 @@ const Header = () => {
 
         {/* mobile ? */}
 
-        <div className="sm:hidden text-3xl">
+        <div className="sm:hidden text-2xl">
           <a href={"#"} target="_blank" className=" overflow-hidden bg-purple-500 text-white  rounded-lg transition-all duration-300 active:scale-95 active:bg-pink-600 p-3 focus:outline-none m-auto">
                  Resume
               </a>
