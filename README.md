@@ -18,5 +18,3 @@ Built with reusable components and optimized performance
 
 
 ![alt text](image.png)
-
-![alt text](image-1.png)
