@@ -34,6 +34,7 @@ const App = () => {
       <Intro />
       <Projects />
       <Skill />
+      <Footer/>
       </div>
      
    

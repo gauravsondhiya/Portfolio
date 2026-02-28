@@ -8,7 +8,7 @@ const Intro = () => {
       <div className=" m-auto  grid sm:grid-cols-12 gap-4  border-red-600 mt-30">
         <div className=" sm:col-span-5   border-green-600 m-auto ">
           <img
-            className="border-hidden rounded-full h-[300px] w-[300px]  sm:h-[300px] sm:w-[300px] 
+            className="border-hidden rounded-full h-[200px] w-[200px]  sm:h-[300px] sm:w-[300px] 
                       mx-auto border"
             src={logo}
             alt="avatar"
@@ -22,19 +22,19 @@ const Intro = () => {
           >
             Hi, I'm Gaurav Sondhiya..{" "}
           </h1>
-          <h1 className=" text-2xl font-semibold leading-relaxed  border-red-600  mt-2 p-4 ">
-            Software Engineer | 3 Years Experience | Building AI-First,
-            Production-Ready Systems.
+          <h1 className=" text-center sm:text-left text-2xl font-semibold leading-relaxed  border-red-600  mt-2 p-4 ">
+            Software Engineer | 3 Years Experience | Building AI-First
+            Production-Ready Applications.
             <br />
           </h1>
-          <p className=" text-xl border-red-600  pl-4 leading-8 ">
+          <p className=" text-center sm:text-left  text-xl border-red-600  pl-4 leading-8 ">
             I Build and ship complete <b>AI-driven</b> applications, integrating{" "}
             <b>Generative AI</b>, with immersive <b>Frontend</b> interfaces,
             scalable <b>Backend</b> systems, and automated <b>DevOps</b>{" "}
             pipelines.
           </p>
 
-          <div className="border-red-500 p-4 flex gap-6 mt-3 sm:hidden">
+          <div className="border-red-500 p-4 flex justify-center gap-6 mt-3  sm:hidden">
             {social.map((e, i) => (
               <span key={i} className="group">
                 <a
