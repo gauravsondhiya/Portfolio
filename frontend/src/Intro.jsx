@@ -5,45 +5,43 @@ import logo from "./assets/logo.jpg";
 const Intro = () => {
   return (
     <>
-      <div className="w-[80%] m-auto  grid sm:grid-cols-12 gap-4  border-red-600 mt-30">
-        <div className=" sm:col-span-5   border-green-600  ">
+      <div className=" m-auto  grid sm:grid-cols-12 gap-4  border-red-600 mt-30">
+        <div className=" sm:col-span-5   border-green-600 m-auto ">
           <img
-            className="border-hidden rounded-full h-[300px] w-[300px]  sm:h-[400px] sm:w-[400px] 
+            className="border-hidden rounded-full h-[300px] w-[300px]  sm:h-[300px] sm:w-[300px] 
                       mx-auto border"
             src={logo}
             alt="avatar"
           />
         </div>
-
-        <div className=" border-amber-400 sm:col-span-7 ">
-          <div
+        <div className="  border-amber-400 sm:col-span-7 ">
+          <h1
             className="text-center sm:text-left 
-           bg-clip-text text-transparent 
-          bg-no-repeat bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
+           text-purple-500
            p-4 text-4xl font-bold  mt-3"
           >
             Hi, I'm Gaurav Sondhiya..{" "}
-          </div>
-          <p className=" text-xl leading-relaxed  border-red-600  mt-3 p-4 ">
-            I am a Software Engineer with <b>3 years</b> of Experience in
-            building web applications.
-            <br /> I work with React, Next.js, Redux, Node.js, Express, MongoDB,
-            and PostgreSQL. I also have knowledge of DevOps, AWS and
-            generative AI with vector databases. My focus is on creating
-            scalable, secure, and impactful digital solutions.
+          </h1>
+          <h1 className=" text-2xl font-semibold leading-relaxed  border-red-600  mt-2 p-4 ">
+            Software Engineer | 3 Years Experience | Building AI-First,
+            Production-Ready Systems.
+            <br />
+          </h1>
+          <p className=" text-xl border-red-600  pl-4 leading-8 ">
+            I Build and ship complete <b>AI-driven</b> applications, integrating{" "}
+            <b>Generative AI</b>, with immersive <b>Frontend</b> interfaces,
+            scalable <b>Backend</b> systems, and automated <b>DevOps</b>{" "}
+            pipelines.
           </p>
 
-          <div className="border-red-500 p-4 flex gap-6 mt-3">
+          <div className="border-red-500 p-4 flex gap-6 mt-3 sm:hidden">
             {social.map((e, i) => (
               <span key={i} className="group">
                 <a
                   href={e.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block p-2 bg-gradient-to-r
-         from-purple-500 via-pink-500 to-red-500 rounded-lg
-          group-hover:from-purple-600 group-hover:via-pink-600
-           group-hover:to-red-600 transition-all duration-300 group-hover:scale-110"
+                  className="inline-block p-2 bg-purple-500 rounded-lg transition-all duration-300 group-hover:scale-110"
                 >
                   <div className="text-white text-3xl">{e.icon}</div>
                 </a>

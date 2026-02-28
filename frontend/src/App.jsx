@@ -18,24 +18,26 @@ const App = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  if (loading) {
-    // show skeleton or loader while page loads
-    return (
-      <div className="flex justify-center items-center h-screen bg-black">
-        <LoaderOne />
-      </div>
-    );
-  }
+  // if (loading) {
+  //   // show skeleton or loader while page loads
+  //   return (
+  //     <div className="flex justify-center items-center h-screen bg-black">
+  //       <LoaderOne />
+  //     </div>
+  //   );
+  // }
 
   return (
-    <div>
+    <>
       <Navbar />
+      <div className="sm:w-[80%] m-auto">
       <Intro />
       <Projects />
-      <Gitgraph />
-      <Experience />
-      <Footer />
-    </div>
+      <Skill />
+      </div>
+     
+   
+    </>
   );
 };
 

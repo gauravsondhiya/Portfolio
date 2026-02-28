@@ -35,7 +35,7 @@ export let projectarr = [
 ];
 export let skilldata= [
   "TypeScript","Javascript","Python",
-  "Next JS","React JS","Tailwind","HTML/CSS",
+  "Next JS","React JS","Tailwind",
   "Express JS","Node JS","Zest", "Prisma", "ORM","RestAPI",
   'MySQL',"PostgreSQL","MongoDB",
   "Langchain","Vector DB","Agent SDK","RAG","Prompt",
