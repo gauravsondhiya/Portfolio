@@ -6,7 +6,7 @@ const Projects = () => {
   
   return (
     <>
-      <div className="text-center sm:text-4xl font-bold mt-15 mb-3 text-white">
+      <div className="text-center sm:text-4xl font-bold mb-3 mt-5 p-5">
         <h1 className="text-5xl"> Check out my latest work</h1>
       </div>
 
@@ -38,8 +38,6 @@ const Projects = () => {
                 {data.title}
               </h2>
                 </a>
-             
-
               <p className="text-base sm:text-lg leading-relaxed text-center sm:text-left text-gray-300">
                 {data.description}
               </p>

@@ -1,4 +1,3 @@
-
 import { FaGithub } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -14,23 +13,16 @@ export let projectarr = [
    stack:["LangChain","ReactJS" ,"Quadrant", "Mongodb","ExpressJS","Acternity","ShadCN", "Mongodb","ExpressJS","Acternity",],
    gitlink:"https://github.com/gauravsondhiya/Pustak_AI",
    livelink:"https://pustakai-rho.vercel.app/"
-},
+ },
   {
-   logo:project1,
-   title:"Artify AI",
+   logo:"#",
+   title:"SQL Agent",
    description:"Upload sources and पुस्तक AI will summarize them and make interesting connections between topics",
    stack:["ReactJS" ,"Quadrant", "Mongodb","ExpressJS","Acternity","ShadCN"],
    gitlink:"https://github.com/gauravsondhiya/Pustak_AI",
    livelink:"https://pustakai-rho.vercel.app/"
 },
-  {
-   logo:project1,
-   title:"पुस्तक AI",
-   description:"Upload sources and पुस्तक AI will summarize them and make interesting connections between topics",
-   stack:["ReactJS" ,"Quadrant", "Mongodb","ExpressJS","Acternity","ShadCN"],
-   gitlink:"https://github.com/gauravsondhiya/Pustak_AI",
-   livelink:"https://pustakai-rho.vercel.app/"
-},
+  
 
 ];
 export let skilldata= [

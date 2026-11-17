@@ -5,36 +5,36 @@ import logo from "./assets/logo.jpg";
 const Intro = () => {
   return (
     <>
-      <div className=" m-auto  grid sm:grid-cols-12 gap-4  border-red-600 mt-30">
-        <div className=" sm:col-span-5   border-green-600 m-auto ">
+      <div className=" m-auto  grid sm:grid-cols-12 border   border-red-600 h-screen p-5 ">
+        <div className=" sm:col-span-5   h-[70%]  border-green-600 m-auto ">
           <img
-            className="border-hidden rounded-full h-[200px] w-[200px]  sm:h-[300px] sm:w-[300px] 
+            className="border-hidden rounded-full h-[400px] w-[400px]  sm:h-[400px] sm:w-[400px] 
                       mx-auto border"
             src={logo}
             alt="avatar"
           />
         </div>
-        <div className="  border-amber-400 sm:col-span-7 ">
+        <div className="h-[70%]    border-amber-400 sm:col-span-7 m-auto">
           <h1
             className="text-center sm:text-left 
            text-purple-500
-           p-4 text-4xl font-bold  mt-3"
+           text-7xl font-bold  mt-3"
           >
-            Hi, I'm Gaurav Sondhiya..{" "}
+            Hi, I'm Gaurav..{" "}
           </h1>
-          <h1 className=" text-center sm:text-left text-2xl font-semibold leading-relaxed  border-red-600  mt-2 p-4 ">
+          <h1 className=" text-center sm:text-left text-2xl font-semibold leading-relaxed  border-red-600  mt-9 ">
             Software Engineer | 3 Years Experience | Building AI-First
             Production-Ready Applications.
             <br />
           </h1>
-          <p className=" text-center sm:text-left  text-xl border-red-600  pl-4 leading-8 ">
+          <p className="  sm:text-left  text-xl border-red-600  leading-8  mt-8">
             I Build and ship complete <b>AI-driven</b> applications, integrating{" "}
             <b>Generative AI</b>, with immersive <b>Frontend</b> interfaces,
             scalable <b>Backend</b> systems, and automated <b>DevOps</b>{" "}
             pipelines.
           </p>
 
-          <div className="border-red-500 p-4 flex justify-center gap-6 mt-3  sm:hidden">
+          <div className="border-red-500 flex  gap-6 mt-8  ">
             {social.map((e, i) => (
               <span key={i} className="group">
                 <a
