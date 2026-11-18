@@ -2,7 +2,8 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-gauravsondhiya.netlify.app-7B3F32?style=for-the-badge&logo=netlify&logoColor=white)](https://gauravsondhiya.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-gauravsondhiya-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gauravsondhiya)
- ![alt text](image.png)
+![Uploading image.png…]()
+
  
 Welcome to the source repository for my personal developer portfolio, live at **[gauravsondhiya.netlify.app](https://gauravsondhiya.netlify.app/)**. This site showcases my projects, technical skills, development experience, and live GitHub contribution activity.
 
