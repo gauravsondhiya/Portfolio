@@ -25,30 +25,32 @@ export let projectarr = [
   
 
 ];
-export let skilldata= [
-  "TypeScript","Javascript","Python",
-  "Next JS","React JS","Tailwind",
-  "Express JS","Node JS","Zest", "Prisma", "ORM","RestAPI",
-  'MySQL',"PostgreSQL","MongoDB",
-  "Langchain","Vector DB","Agent SDK","RAG","Prompt",
-  'AWS',"Docker","CI/CD"
-]
 
-// [
-//   {type:"Language",stack:["TypeScript","Javascript","Python"]},
-//   {type:"Frontend",stack:["Next JS","React JS","Tailwind CSS","HTML/CSS"]},
-//   {type:"Backend",stack:["Express JS","Node JS","Zest", "Prisma", "ORM","RestAPI"]},
-//   {type:"Database",stack:['MySQL',"PostgreSQL","MongoDB"]},
-//   {type:"Gen AI",stack:["Langchain","Vector DB","Agent SDK","RAG","Prompt"]},
-//   {type:"Devops",stack:['AWS',"Docker","CI/CD"]}
+
+// export let skilldata= [
+//   "TypeScript","Javascript","Python",
+//   "Next JS","React JS","Tailwind",
+//   "Express JS","Node JS","Zest", "Prisma", "ORM","RestAPI",
+//   'MySQL',"PostgreSQL","MongoDB",
+//   "Langchain","Vector DB","Agent SDK","RAG","Prompt",
+//   'AWS',"Docker","CI/CD"
 // ]
 
-export let navbardata = [
+export let skilldata=[
+  {type:"Gen AI",stack:["Langchain","Vector DB","Agent SDK","RAG","Prompt"]},
+  {type:"Devops",stack:['AWS',"Docker","CI/CD"]},
+  {type:"Language",stack:["TypeScript","Javascript","Python"]},
+  {type:"Frontend",stack:["Next JS","React JS","Tailwind CSS","HTML/CSS"]},
+  {type:"Backend",stack:["Express JS","Node JS","Zest", "Prisma", "ORM","RestAPI"]},
+  {type:"Database",stack:['MySQL',"PostgreSQL","MongoDB"]},
+]
+
+export let Contact_data = [
     { type: "Github", link: "https://github.com/gauravsondhiya" },
     { type: "linkedin", link: "https://www.linkedin.com/in/gaurav-sondhiya/" },
     { type: "X", link: "https://x.com/sondhiya__ji" },
-    { type: "Contact", link: "mailto:gauravsondhiya1503@gmail.com" },
-    { type: "Resume", link: "drivelink" },
+    { type: "Email", link: "mailto:gauravsondhiya1503@gmail.com" },
+    { type: "Resume", link: "/resume" },
   ];
 
 export let social = [

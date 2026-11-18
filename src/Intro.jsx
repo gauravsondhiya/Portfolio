@@ -5,11 +5,12 @@ import logo from "./assets/logo.jpg";
 const Intro = () => {
   return (
     <>
-      <div className=" m-auto  grid sm:grid-cols-12    border-red-600 h-screen p-5 ">
+      <div className="   grid sm:grid-cols-12    border-red-600 h-screen p-5 ">
         <div className=" sm:col-span-5   h-[70%]  border-green-600 m-auto ">
           <img
-            className="border-hidden rounded-full h-[400px] w-[400px]  sm:h-[400px] sm:w-[400px] 
-                      mx-auto border"
+            className="border-hidden rounded-full h-[400px] w-[400px]
+             sm:h-[400px] sm:w-[400px] 
+                       "
             src={logo}
             alt="avatar"
           />
