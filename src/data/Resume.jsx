@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function FilePreview() {
   
-  https://drive.google.com/file/d/1cNTqjqtLMLM3p4XWrbqQciMR5QgtkU_f/view?usp=drive_link
- //  link divided into like this 
+  // https://drive.google.com/file/d/1cNTqjqtLMLM3p4XWrbqQciMR5QgtkU_f/view?usp=drive_link
+  // link divided into like this 
  
   const fileId = "1cNTqjqtLMLM3p4XWrbqQciMR5QgtkU_f";
   const previewUrl = `https://drive.google.com/file/d/${fileId}/preview`;

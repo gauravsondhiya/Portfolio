@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import project1 from './assets/project1.png'
+import project1 from '../assets/project1.png'
 
 
 export let project_data = [

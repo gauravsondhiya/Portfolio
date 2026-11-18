@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AiOutlineAlignLeft, AiOutlineClose } from 'react-icons/ai';
-import Projects from './Projects';
-import Experience from './Experience';
-import Skill from './Skill';
-import Intro from './Intro';
-import Sidebar from './Sidebar';
-import Contact from './Contact';
-import Resume from './Resume';
-import { Education } from './Education';
+import Projects from './data/Projects';
+import Experience from './data/Experience';
+import Skill from './data/Skill';
+import Intro from './data/Intro';
+import Sidebar from './data/Sidebar';
+import Contact from './data/Contact';
+import Resume from './data/Resume';
+import { Education } from './data/Education';
 
 const App = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

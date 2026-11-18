@@ -1,6 +1,6 @@
 import React from "react";
 import { social } from "./Data.jsx";
-import logo from "./assets/logo.jpg";
+import logo from "../assets/logo.jpg";
 import Experience from "./Experience.jsx";
 import Projects from "./Projects.jsx";
 import Skill from "./Skill.jsx";
