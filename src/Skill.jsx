@@ -4,7 +4,7 @@ import Gitgraph from "./Gitgraph";
 
 const Skill = () => {
   return (
-    <div className="p-15 mt-5">
+    <div className="p-5  sm:p-15  bg-[#F3EFE7]">
         <Gitgraph/>
       <div className=" text-5xl  mb-3 mt-10 font-['Iowan_Old_Style',Georgia,serif]">
         <h1>Professional Skillset</h1>
@@ -18,11 +18,12 @@ const Skill = () => {
               {tech.type}
             </div>
 
-            <div className="flex gap-5 mt-4 mb-4">
+            <div className="grid sm:grid-cols-12 text-center gap-5 mt-4 mb-4">
             {tech.stack.map((e) => (
                <span
                 key={j}
-                className="  p-4 bg-[#7B3F32] text-white text-base  font-bold rounded-xl "
+                className=" col-span-2 text-base
+                  p-4 bg-[#7B3F32] text-white font-bold rounded "
               >{e}
               </span>
              ))

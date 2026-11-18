@@ -1,17 +1,17 @@
 import React from "react";
-import { projectarr } from "./Data";
+import { project_data } from "./Data";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   
   return (
-    <div className="bg-[#F3EFE7] p-15">
+    <div className="bg-[#F3EFE7] p-5 sm:p-15 bg-[#F3EFE7]">
       <div className="">
         <h1 className="text-5xl font-['Iowan_Old_Style',Georgia,serif]"> Check out my latest work</h1>
       </div>
 
       <div className=" mt-5 m-auto flex flex-col gap-10 ">
-        {projectarr.map((data, i) => (
+        {project_data.map((data, i) => (
           <div
             key={i}
             className="flex flex-col sm:grid sm:grid-cols-12 gap-6 border border-gray-300  bg-white rounded p-4 sm:p-6  "

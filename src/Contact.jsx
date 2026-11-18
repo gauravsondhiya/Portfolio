@@ -3,10 +3,12 @@ import { Contact_data } from "./Data";
 
 const Contact = () => {
   return (
-    <div className="flex justify-around border border-black h-screen">
-      <div className="m-auto w-[50%] font-['Iowan_Old_Style',Georgia,serif]">
-        <p>Get In Touch</p>
-        <h1 className="text-9xl">Let's Connect</h1>
+    <div className="p-5 sm:grid sm:grid-cols-12  sm:p-20  h-full
+      bg-[#F3EFE7]">
+
+      <div className="sm:col-span-6 m-auto  font-['Iowan_Old_Style',Georgia,serif]">
+        {/* <p>Get In Touch</p> */}
+        <p className="text-8xl sm:text-9xl">Let's Connect</p>
         <p className="text-xl mt-5 ">If my work resonates with what you're building,I'd be glad to hear
           from you.
         </p>
@@ -15,7 +17,8 @@ const Contact = () => {
           <a href="mailto:gauravsondhiya1503@gmail.com" target="_blank" className="hover:text-[#7B3F32]" >Email - gauravsondhiya1503@gmail.com</a>
         </div>
       </div>
-      <div className="m-auto ">
+
+      <div className="sm:col-span-6 m-auto ">
           {
             Contact_data.map((e,i)=>(
               <div className=" border-black text-4xl my-4 ">

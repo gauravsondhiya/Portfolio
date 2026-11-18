@@ -5,7 +5,7 @@ import { IoIosMail } from "react-icons/io";
 import project1 from './assets/project1.png'
 
 
-export let projectarr = [
+export let project_data = [
   {
    logo:project1,
    title:"पुस्तक AI",
@@ -71,3 +71,55 @@ export let social = [
     url: "mailto:gauravsondhiya1503@gmail.com",
   },
 ];
+
+
+export let sidebar_btn_data =[
+    {to:"/",btn:"Home"},
+    {to:"/experience",btn:"Experience"},
+    {to:"/projects",btn:"Projects"},
+    {to:"/skills",btn:"Skills"},
+    {to:"/education",btn:"Education"},
+    {to:"/resume",btn:"Resume"},
+    {to:"/contact",btn:"Contact"},
+  ]
+
+
+export let education_data = [
+    {
+      collage_name: "Gyan Ganga College of technology Jabalpur",
+      Degree: "Master of Computer Application (MCA) ",
+      year: "July-2024 to August-2026",
+      Grade: "8.0 CGPA"
+    },
+    {
+      collage_name: "st aloysius college jabalpur",
+      Degree: "Bachelor of commerce Computer Application",
+      year: "July-2018 to August-2021",
+      Grade: ""
+    }
+  ];
+
+export let experience_data = [
+    {
+      companyname: "Doa Guru Info Systems Jabalpur",
+      jobtype: "Contract",
+      position: "Full Stack Engineer",
+      year: "Dec-2025 to Nov-2026",
+      location: "Banglore",
+      des: "Developed a full-stack application to optimize warehouse operations for DSI, enhancing inventory tracking and process efficiency",
+    },
+    {
+      companyname: "Freelance",
+      jobtype: "",
+      position: "Full Stack Engineer",
+      year: "Jan-2024 to Oct-2025",
+      des: "Developed a full-stack application to optimize warehouse operations for DSI, enhancing inventory tracking and process efficiency",
+    },
+    {
+      companyname: "Linkederp Bangalore",
+      jobtype: "Full time",
+      position: "Associate Software Engineer ",
+      year: "Sep-2022 to Dec 2024",
+      des: "Developed a full-stack application to optimize warehouse operations for DSI, enhancing inventory tracking and process efficiency",
+    },
+  ];

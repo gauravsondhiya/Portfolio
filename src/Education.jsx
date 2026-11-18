@@ -1,27 +1,16 @@
-import { div } from "motion/react-client";
-import React from "react";
+
+import { education_data } from "./Data";
 
 export const Education = () => {
-  let data = [
-    {
-      collage_name: "Gyan Ganga College of technology Jabalpur",
-      Degree: "Master of Computer Application (MCA) ",
-      year: "July-2024 to August-2026",
-      Grade: "8.0 CGPA"
-    },
-    {
-      collage_name: "st aloysius college jabalpur",
-      Degree: "Bachelor of commerce Computer Application",
-      year: "July-2018 to August-2021",
-      Grade: ""
-    }
-  ];
+  
   return (
-    <div className="p-15 mt-5 text-lg font-iowanoldstyle-bold  ">
+    <div className="p-5 sm:p-15 h-screen text-lg font-iowanoldstyle-bold bg-[#F3EFE7] ">
+      
       <h1 className="text-5xl font-['Iowan_Old_Style',Georgia,serif]">Education</h1>
       <hr className="mt-10"/>
+
       <div className="p-5">
-        {data.map((e, i) => (
+        {education_data.map((e, i) => (
           <div key={i} className="mt-5">
             <div className="flex justify-between ">
               <p className="text-xl font-semibold font-['Iowan_Old_Style',Georgia,serif]">{e.Degree}</p>
