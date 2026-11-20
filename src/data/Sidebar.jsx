@@ -5,7 +5,7 @@ import { sidebar_btn_data } from "./Data";
 const Sidebar = () => {
   return (
     <>
-      <aside className=" left-0 bottom-0 sm:border-r-1 sm:border-gray-300 
+      <aside className="bg-[#fcfcfc] left-0 bottom-0 sm:border-r-1 sm:border-gray-300 
       sm:h-screen sm:p-5  sticky top-0 flex flex-col justify-between">
 
         <div className="hidden sm:block cursor-pointer p-4">

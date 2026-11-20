@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
-/* @theme {
-  --font-sans: "Iowan Old Style", Georgia, serif;
-} */
+@layer base {
+  body {
+    @apply bg-[#F3EFE7] min-h-screen;
+  }
+}

@@ -4,7 +4,7 @@ import { education_data } from "./Data";
 export const Education = () => {
   
   return (
-    <div className="p-5 sm:p-15 h-screen text-lg font-iowanoldstyle-bold bg-[#F3EFE7] ">
+    <div className="p-5  h-[450px] sm:p-15 sm:h-screen text-lg font-iowanold style-bold ">
       
       <h1 className="text-5xl font-['Iowan_Old_Style',Georgia,serif]">Education</h1>
       <hr className="mt-10"/>

@@ -10,22 +10,22 @@ const Skill = () => {
         <h1>Professional Skillset</h1>
       </div>
 
-      <div className="">
+      <div className=" grid grid-cols-12 gap-5 h-full mt-5 ">
 
         {skilldata.map((tech, j) => (
-          <div className=" mt-8">
+          <div className="border border-gray-300 rounded col-span-6  h-[100%] p-5">
             <div className=" text-2xl font-semibold font-['Iowan_Old_Style',Georgia,serif] ">
               {tech.type}
             </div>
 
-            <div className="grid sm:grid-cols-12 text-center gap-5 mt-4 mb-4">
+            <div className=" grid sm:grid-cols-12 mt-5  gap-5 text-center  ">
             {tech.stack.map((e) => (
-               <span
+               <div
                 key={j}
-                className=" col-span-2 text-base
+                className=" col-span-4 text-base
                   p-4 bg-[#7B3F32] text-white font-bold rounded "
               >{e}
-              </span>
+              </div>
              ))
              }
             </div>
